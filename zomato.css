@@ -1,0 +1,141 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.hero
+{
+    height:500px;
+    width:100%;
+    
+    background-image:url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+
+
+}
+.text-white{
+    color:white;
+}
+.nav{
+    height: 80px;
+    width:100%;
+   
+    padding-left:200px;
+    padding-right: 240px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.right{
+    
+    width: 500px;
+    display:flex;
+    justify-content: space-between; 
+    font-size: 20px;  
+}
+.middle{
+   height:300px;
+   width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.inside{
+    margin-top:10px;
+    font-size: 40px;
+}
+.search{
+    background: white;
+    height:40px;
+    width:800px;
+    border-radius:10px;
+    display:flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.fi-rr-marker{
+    color:red;
+    font-size: 20px;
+    justify-content: center;
+}
+.fi-br-search{
+    color:black;
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: 100;
+}
+.line{
+    color:black;
+   font-weight: 200;
+}
+.city{
+    height:100%;
+    width:200px;
+    font-size: 20px;
+    border:none;
+
+}
+.inpu{
+    border:none;
+    height:100%;
+    width:400px;
+    margin-left: 20px;
+
+}
+.inpu:focus{
+    outline: none;
+}
+.city:focus{
+    outline:none;
+}
+.hero2{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 100px;
+    padding-right: 100px;
+
+    
+    
+}
+.card{
+    height:200px;
+    width:300px;
+    
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border:1px solid black;
+    overflow: hidden;
+    transition: all 0.15s linear;
+    align-items: center;
+    
+    
+}
+
+
+
+.card img{
+    height:75%;
+    width:100%;
+}
+.card:hover{
+    transform: scale(1.1);
+   
+}
+.card span{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    padding-left: 70px;
+}
+.i{
+    color:azure
+}
